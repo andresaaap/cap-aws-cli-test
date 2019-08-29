@@ -17,7 +17,7 @@ pipeline {
 			steps {
 				
 				sh '''
-					which aws
+					sudo /home/ubuntu/.local/bin/aws help
 
 				'''
 				
