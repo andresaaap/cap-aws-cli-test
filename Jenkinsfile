@@ -12,5 +12,16 @@ pipeline {
 				
 			}
 		}
+
+		stage('aws') {
+			steps {
+				
+				sh '''
+					which aws
+
+				'''
+				
+			}
+		}
 	}
 }
