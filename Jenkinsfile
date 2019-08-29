@@ -17,7 +17,7 @@ pipeline {
 			steps {
 				
 				sh '''
-					sudo -t /home/ubuntu/.local/bin/aws help
+					sudo /home/ubuntu/.local/bin/aws --version
 
 				'''
 				
