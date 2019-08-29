@@ -5,9 +5,9 @@ pipeline {
 		stage('Domain redirect blue') {
 			steps {
 				
-					sh '''
-						aws
-					'''
+				sh '''
+					/home/ubuntu/.local/bin/aws help
+				'''
 				
 			}
 		}
