@@ -6,7 +6,7 @@ pipeline {
 			steps {
 				
 				sh '''
-					/home/ubuntu/.local/bin/aws help
+					sudo /home/ubuntu/.local/bin/aws help
 				'''
 				
 			}
