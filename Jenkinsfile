@@ -6,7 +6,7 @@ pipeline {
 			steps {
 				
 				sh '''
-					aws help
+					python3 --version
 				'''
 				
 			}
