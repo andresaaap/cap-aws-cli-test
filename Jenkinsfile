@@ -18,6 +18,7 @@ pipeline {
 				
 				sh '''
 					aws --version
+					aws-iam-authenticator help
 
 				'''
 				
