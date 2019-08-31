@@ -17,7 +17,7 @@ pipeline {
 			steps {
 				
 				sh '''
-					echo para | sudo -S /home/ubuntu/.local/bin/aws --version
+					aws --version
 
 				'''
 				
