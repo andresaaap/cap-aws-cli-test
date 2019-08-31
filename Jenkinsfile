@@ -18,8 +18,9 @@ pipeline {
 				
 				sh '''
 					aws --version
-					aws-iam-authenticator help
-
+					aws-iam-authenticator
+					kubectl version --short --client
+					eksctl version
 				'''
 				
 			}
